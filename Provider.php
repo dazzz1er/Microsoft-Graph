@@ -16,7 +16,7 @@ class Provider extends AbstractProvider implements ProviderInterface
     /**
      * {@inheritdoc}
      */
-    protected $scopes = ['openid mail.send User.ReadBasic.All'];
+    protected $scopes = ['Calendars.ReadWrite Calendars.ReadWrite.Shared Contacts.ReadWrite Contacts.ReadWrite.Shared Mail.ReadWrite Mail.ReadWrite.Shared Mail.Send Mail.Send.Shared People.Read Tasks.ReadWrite Tasks.ReadWrite.Shared User.ReadWrite'];
 
     /**
      * {@inheritdoc}
